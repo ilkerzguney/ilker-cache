@@ -1,4 +1,4 @@
-<b>An HTTP BASED distributed cache supporting following requirements
+<b>A HTTP BASED distributed cache supporting following requirements
 - HTTP
 - P2P for data replication
 - Sharding by key using consistent hashing algorithm
