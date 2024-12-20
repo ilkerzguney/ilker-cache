@@ -6,14 +6,14 @@
 </b>
 **INFO:
 
-Cache eviction policies
+<b>Cache eviction policies</b>
 
 We cant keep all data in memory indefinitely. 
 1. LRU : doubly-linked list in standart library "containers/list"
-2. TTL: evicted items based on tim rather than usage
-3. FIFO: evicts oldest item in the cache based on the time it was added, very easy to implement, frequently used items 
+2. TTL: evicted items based on time rather than usage
+3. FIFO: evicts oldest item in the cache based on the time it was added, very easy to implement
 
-Choosing the right eviction policy
+<b>Choosing the right eviction policy</b>
 LRU and TTL
 
 - Adding TTL: a seperate goroutine with time.Ticker, periodically triggers evict function to check and remove expired entries.
