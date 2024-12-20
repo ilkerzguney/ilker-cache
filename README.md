@@ -1,9 +1,9 @@
-an HTTP BASED distributed cache supporting following requirements
+<b>An HTTP BASED distributed cache supporting following requirements
 - HTTP
 - P2P for data replication
 - Sharding by key using consistent hashing algorithm
 - TTL and LRU based eviction policies.
-
+</b>
 **INFO:
 
 Cache eviction policies
