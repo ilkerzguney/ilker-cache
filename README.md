@@ -1,5 +1,5 @@
-<b>A HTTP BASED distributed cache supporting following requirements
-- HTTP
+<b>A HTTP BASED distributed cache, supporting following requirements
+- HTTP protocol for server-client communication
 - P2P for data replication
 - Sharding by key using consistent hashing algorithm
 - TTL and LRU based eviction policies.
